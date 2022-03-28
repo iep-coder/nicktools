@@ -7,9 +7,10 @@
 #'
 #' @return
 #' @export
-#'
 #' @examples
 standard_error <- function(x) {sd(x) / sqrt(length(x))} 
+
+
 
 
 #' Convert degrees F to degrees C
