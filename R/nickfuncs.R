@@ -1,8 +1,24 @@
 
 
 
-standard_error <- function(x) sd(x) / sqrt(length(x)) 
+#' Calculate standard error
+#'
+#' @param x 
+#'
+#' @return
+#' @export
+#'
+#' @examples
+standard_error <- function(x) {sd(x) / sqrt(length(x))} 
 
 
-f_to_c <- function(x) (x - 32) * 5/9
+#' Convert degrees F to degrees C
+#'
+#' @param x 
+#'
+#' @return
+#' @export
+#'
+#' @examples
+f_to_c <- function(x) {(x - 32) * 5/9}
 
